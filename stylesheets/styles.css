@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    background-color: #02027c;
+    color: #ffffff;
+    font-family: "Source Code Pro", monospace;
+    user-select: none;
+    overflow: hidden;
+}
+
+nav {
+    overflow: hidden;
+    background-color: #A8A8A8;
+}
+
+nav .right {
+    color: #000000;
+    float: right;
+    padding: 2px 16px;
+    font-size: 17px;
+}
+
+nav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav a:hover {
+    background-color: #dddddd;
+}
+
+.content {
+    margin: 0px 30px;
+}
+
+h2, h3, h4 {
+    font-family: "Source Code Pro", monospace;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+p {
+    font-size: 16px;
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    color: #04b3b3;
+}
+
+.columnLeft {
+    float: left;
+    width: 60%;
+    padding: 20px 0px;
+}
+
+.columnRight {
+    float: right;
+    width: 36%;
+    padding: 20px 0px;
+}
+
+.column5 {
+    float: left;
+    text-align: center;
+    width: 33.33%;
+    padding: 10px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+.textarea {
+    padding: 0px 30px;
+    border: 7px solid #A8A8A8;
+    background-color: #dddddd;
+}
+
+.progress {
+    color: #ffffff;
+    background-color: #05c2c2;
+}
+
+.progress-bg {
+    background-color: #028888;
+}
+
+.window {
+    padding-top: 8px;
+    overflow: hidden;
+    background-color: #A8A8A8;
+}
+
+.window .right {
+    color: #000000;
+    float: right;
+    font-size: 17px;
+}
+
+.window .item {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.box {
+    box-shadow: 10px 10px #000000;
+}
+
+.text {
+    color: #000000;
+}
+
+.red {
+    color: #A80000;
+}
+
+/* ------------------------------------------------ PROJECTS PAGE ------------------------------------------------ */
+
+.explorer {
+    padding: 20px;
+}
+
+.explorer-body {
+    overflow-y: scroll;
+    height: 83vh;
+}
+
+.booglelogo {
+    vertical-align: middle;
+}
+
+.search {
+    vertical-align: middle;
+    font-size: 27px;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 10px;
+}
