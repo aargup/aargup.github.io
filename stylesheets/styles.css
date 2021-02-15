@@ -75,7 +75,7 @@ a {
     padding: 20px 0px;
 }
 
-.column5 {
+.column3 {
     float: left;
     text-align: center;
     width: 33.33%;
@@ -89,7 +89,10 @@ a {
 }
 
 @media screen and (max-width: 600px) {
-    .column {
+    .columnLeft {
+        width: 100%;
+    }
+    .columnRight {
         width: 100%;
     }
 }
